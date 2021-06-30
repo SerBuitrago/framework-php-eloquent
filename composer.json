@@ -1,0 +1,22 @@
+{
+    "name": "serbuitrago/framework-php-eloquent",
+    "description": "Framework",
+    "type": "project",
+    "require": {
+        "illuminate/database": "^5.5",
+        "dompdf/dompdf": "^0.8.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sergio Stives Barrios Buitrago",
+            "email": "sergiobuitrago54@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
